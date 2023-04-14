@@ -3,13 +3,13 @@ import './App.css';
 import Goalsname from './Goals/Goalsname';
 import Heading from './Goals/Heading';
 
-function App() {
+ export default function App() {
   return (
 <>
- <Heading/>
- <Goalsname/>
+ <Heading></Heading>
+ <Goalsname></Goalsname>
  </>
   )
 }
 
-export default App;
+
